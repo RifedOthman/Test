@@ -1,0 +1,65 @@
+# Dépendances
+node_modules/
+Backend/node_modules/
+Frontend/node_modules/
+
+# Environnement
+.env
+.env*.local
+Backend/.env
+Frontend/.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dossier de build
+dist/
+build/
+Backend/dist/
+Backend/build/
+Frontend/dist/
+Frontend/build/
+
+# Expo (Frontend)
+.expo/
+Frontend/.expo/
+web-build/
+Frontend/web-build/
+expo-env.d.ts
+Frontend/expo-env.d.ts
+
+# Native (Frontend)
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro (Frontend)
+.metro-health-check*
+Frontend/.metro-health-check*
+
+# macOS
+.DS_Store
+*.pem
+
+# TypeScript
+*.tsbuildinfo
+
+# Generated native folders (Frontend)
+/ios
+/android
+Frontend/ios
+Frontend/android
+
+# IDE
+.vscode/
+.idea/
+Thumbs.db
+
